@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+    font-family: "Work Sans", sans-serif;
+}
+
+header{
+    background-color: #6B4F4F;
+}
+
+header div{
+    align-items: center;
+    padding: 0.5% 5%;
+    justify-content: space-between;
+    display: flex;
+}
+
+div ul{
+    display: flex;
+    gap: 15%;
+}
+
+ul li{
+    text-decoration: none;
+    list-style: none;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.SeccionActive{
+    font-weight: 500;
+    color: #fff;
+}
+
+main{
+    margin: 3% 5%;
+}
+
+.elemenTs{
+    display: flex;
+    gap: 5%;
+}
+
+.baCk{
+    display: flex;
+    align-items: center;
+}
+
+h4{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+h1{
+    margin-bottom: 3%;
+    color: #6B4F4F;
+    font-weight: 600;
+}
+
+h3{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+p{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.liNe{
+    margin: 3% 0;
+    height: 1px;
+    width: 100px;
+    background-color: #6B4F4F;
+}
+
+
+.produCt{
+    gap: 1%;
+    grid-template-columns: 1fr 2fr 1fr;
+    display: grid;
+}
+
+.imgProduct{
+    grid-column: 1/2;
+}
+
+.daTe{
+    grid-column: 2/3;
+    justify-self: start;
+}
+
+.buttonAdd{
+    cursor: pointer;
+    background-color:#FFB3BA;
+    border-radius: 5px;
+    color: #000;
+    border: none;
+    padding: 20%;
+    margin-bottom: 150%;
+}
+
+.buttonAdd:hover{
+    background-color: #ffc7cd;
+}
+
+.priCe{
+    grid-column: 3/4;
+    justify-self: end;
+}
+
+.priCe h4{
+    font-size: 20px;
+}
+
+.cardProduct{
+    width: 500px;
+    padding: 2%;
+    background-color: #FFF3E0;
+}
+
+.amount {
+    margin-right: 8px;
+}
+
+.totAl{
+    align-items:end;
+    justify-content: space-between;
+    display: flex;
+}
+
+.buttonBuilding{
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #FFB3BA ;
+    padding: 5% 44%;
+}
+
+.buttonBuilding:hover{
+    background-color: #ffc7cd;
+}
+
+.addedProductsList {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.addedProduct {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.addedProduct span {
+    cursor: pointer;
+}
+
+.precioTotal{
+    font-size: 24px;
+}

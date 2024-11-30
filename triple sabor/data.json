@@ -1,0 +1,25 @@
+{
+    "products": [
+    {
+        "id": 1,
+        "image": "./assets/helado-1.jpg",
+        "description": "Aquí está el helado para los amantes de los sabores acaramelados: helado de caramelo salado",
+        "name": "Helado de caramelo salado con blondies sin máquina de helado",
+        "price": 12030
+    },
+    {
+        "id": 2,
+        "image": "./assets/helado-2.jpg",
+        "description": "Lleva a tus amigos a compartir los 3 sabores más conocidos del mundo.",
+        "name": "3x1 en helados que deseas",
+        "price": 5500
+    },
+    {
+        "id": 3,
+        "image": "./assets/helado-3.jpg",
+        "description": "El combo perfecto para una reunión familiar en tu casa.",
+        "name": "1 KG DE HELADO",
+        "price": 10150
+    }
+    ]
+}
